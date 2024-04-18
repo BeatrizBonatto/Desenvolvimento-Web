@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(2, 25, 70);
+    font-family: cursive;
+}
+
+body {
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('../img/cinnamoroll-wallspaper.jpg');
+    background-size: 300px;
+}
+
+img {
+    height: 150px;
+    border-radius: 100%;
+}
+
+main{
+    width: 512px;
+}
+
+@media (max-width: 480px) {
+    main {
+        width: 220px;
+    }
+}
+
+header {
+    text-align: center;
+}
+
+h3 {
+    margin: 4px;
+}
+
+#formacoes > li {
+    margin-left: 20px;
+}
+
+ul > p {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#hobbies > li {
+    margin-right: 20px;
+}
+
+footer > p {
+    text-align: center;
+}
